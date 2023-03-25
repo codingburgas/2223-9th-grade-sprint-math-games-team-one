@@ -1,15 +1,15 @@
 ## <img align="center" src="https://cdn-icons-png.flaticon.com/512/2493/2493283.png" width="30">   Our team
 1. Iva Nedkova - ***Scrum trainer***
    > Email: ***INNedkova21@codingburgas.bg***
-
-2. Valentin Pendashev - ***QA Engineer***
-   > Email: ***VBPendashev21@codingburgas.bg***
-   
-3. Todor Ivanov - ***Back-end Developer***
+   >  
+2. Todor Ivanov - ***Back-end Developer***
    > Email: ***TPIvanov21@codingburgas.bg***
 
-4. Bozhidar Dukov - ***Front-end Developer***
+3. Bozhidar Dukov - ***Front-end Developer***
    > Email: ***BNDukov21@codingburgas.bg***
+
+4. Valentin Pendashev - ***QA Engineer***
+   > Email: ***VBPendashev21@codingburgas.bg***
 
 
 
