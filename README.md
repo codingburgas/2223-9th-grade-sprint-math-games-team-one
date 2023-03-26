@@ -1,5 +1,8 @@
 <div align="center"><img src="/images/logo.png" width=30%> </div>
 
+## <img align="center" src="https://cdn-icons-png.flaticon.com/512/3708/3708519.png" width="30"> Demo of our project
+
+
 ## <img align="center" src="https://cdn-icons-png.flaticon.com/512/2493/2493283.png" width="30">   Our team
 1. Iva Nedkova - ***Scrum trainer***
    > Email: ***INNedkova21@codingburgas.bg***
