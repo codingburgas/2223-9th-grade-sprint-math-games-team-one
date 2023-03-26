@@ -1,7 +1,10 @@
 <div align="center"><img src="images/logо.png" width=30%> </div>
 
-## <img align="center" src="https://cdn-icons-png.flaticon.com/512/3708/3708519.png" width="30"> Demo of our project
+## <img align="center" src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Actions-help-about-icon.png" width="30"> Information
+We created a game where you can protect the world from evil monsters while you are improving your math skills.
 
+## <img align="center" src="https://cdn-icons-png.flaticon.com/512/3708/3708519.png" width="30"> Demo of our project
+<p float="left" align="center"> <img src="/images/demoOne.png" width="350">  <img src="/images/demoTwo.png" width="350"> </p>
 
 ## <img align="center" src="https://cdn-icons-png.flaticon.com/512/2493/2493283.png" width="30">   Our team
 1. Iva Nedkova - ***Scrum trainer***
