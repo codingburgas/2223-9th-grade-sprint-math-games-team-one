@@ -1,4 +1,4 @@
-<div align="center"><img src="/2223-9th-grade-sprint-math-games-team-one-master/images/logo.png" width=30%> </div>
+<div align="center"><img src="images/logо.png" width=30%> </div>
 
 ## <img align="center" src="https://cdn-icons-png.flaticon.com/512/3708/3708519.png" width="30"> Demo of our project
 
