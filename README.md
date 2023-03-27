@@ -31,3 +31,9 @@ We created a game where you can protect the world from evil monsters while you a
 - <img src="https://findicons.com/files/icons/2795/office_2013_hd/2000/excel.png" width="20">  Excel
 - <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" width="20">  Figma
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/800px-Google_Chrome_icon_%28February_2022%29.svg.png" width="20">  Chrome
+
+
+
+## <img align="center" src="https://cdn.pixabay.com/photo/2021/10/11/00/58/star-6699069__340.png" width="30">   Rate us
+If you like our project, you can rate us by clicking the &#11088; button.
+Thank you! 😉
