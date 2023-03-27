@@ -33,6 +33,9 @@ We created a game where you can protect the world from evil monsters while you a
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/800px-Google_Chrome_icon_%28February_2022%29.svg.png" width="20">  Chrome
 
 
+## <img align="center" src="https://o.remove.bg/downloads/001e853e-0432-4b7e-9905-56138172a19b/360_F_50796174_YodwRqav00W9XKa8TwGvzJsl7SJALM5k-removebg-preview.png" width="30"> Download
+To play our game, you have to clone our repository using this link: https://github.com/codingburgas/2223-9th-grade-sprint-math-games-team-one.git 
+
 
 ## <img align="center" src="https://cdn.pixabay.com/photo/2021/10/11/00/58/star-6699069__340.png" width="30">   Rate us
 If you like our project, you can rate us by clicking the &#11088; button.
