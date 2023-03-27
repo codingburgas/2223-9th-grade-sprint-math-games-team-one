@@ -22,6 +22,7 @@ We created a game where you can protect the world from evil monsters while you a
 
 
 ## <img align="center" src="https://www.pngmart.com/files/11/Information-Technology-Transparent-Background.png" width="30"> Used technologies
+- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png" width="20">  C
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/640px-ISO_C%2B%2B_Logo.svg.png" width="20">  C++
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/2060px-Visual_Studio_Icon_2019.svg.png" width="20">  Visual studio
 - <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20">  Git Hub
