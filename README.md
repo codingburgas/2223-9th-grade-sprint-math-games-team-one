@@ -6,7 +6,7 @@ We created a game where you can protect the world from evil monsters while you a
 ## <img align="center" src="https://cdn-icons-png.flaticon.com/512/3708/3708519.png" width="30"> Demo of our project
 <p float="left" align="center"> <img src="/images/demoOne.png" width="350">  <img src="/images/demoTwo.png" width="350"> </p>
 
-## <img align="center" src="https://o.remove.bg/downloads/4bb100ec-97c4-46ea-8bbe-b350e52d73be/image-removebg-preview.png" width="30">   Our team
+## <img align="center" src="https://overseasrealty.com/en/referrals/miscellanous-images/team.png/image_preview" width="30">   Our team
 1. Iva Nedkova - ***Scrum trainer***
    > Email: ***INNedkova21@codingburgas.bg***
    >  
@@ -21,7 +21,7 @@ We created a game where you can protect the world from evil monsters while you a
 
 
 
-## <img align="center" src="https://o.remove.bg/downloads/ee3e7c84-2a86-4227-9094-9bdded5b1e6b/image-removebg-preview.png" width="30"> Used technologies
+## <img align="center" src="https://www.pngmart.com/files/11/Information-Technology-Transparent-Background.png" width="30"> Used technologies
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/640px-ISO_C%2B%2B_Logo.svg.png" width="20">  C++
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/2060px-Visual_Studio_Icon_2019.svg.png" width="20">  Visual studio
 - <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20">  Git Hub
@@ -30,10 +30,10 @@ We created a game where you can protect the world from evil monsters while you a
 - <img src="https://findicons.com/files/icons/2795/office_2013_hd/2000/word.png" width="20">  Word
 - <img src="https://findicons.com/files/icons/2795/office_2013_hd/2000/excel.png" width="20">  Excel
 - <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" width="20">  Figma
-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/800px-Google_Chrome_icon_%28February_2022%29.svg.png" width="20">  Chrome
 
 
-## <img align="center" src="https://o.remove.bg/downloads/001e853e-0432-4b7e-9905-56138172a19b/360_F_50796174_YodwRqav00W9XKa8TwGvzJsl7SJALM5k-removebg-preview.png" width="30"> Download
+
+## <img align="center" src="https://cdn-icons-png.flaticon.com/512/0/532.png" width="30"> Download
 To play our game, you have to clone our repository using this link: https://github.com/codingburgas/2223-9th-grade-sprint-math-games-team-one.git 
 
 
