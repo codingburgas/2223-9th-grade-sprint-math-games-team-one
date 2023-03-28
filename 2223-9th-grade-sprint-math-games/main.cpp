@@ -228,6 +228,7 @@ bool binaryCalculations(Texture2D menuBG, Texture2D ability, Texture2D character
     DrawTexture(BattleBox, GetScreenWidth() / 1.5, GetScreenHeight() / 15, WHITE);
     DrawTexture(tBox, GetScreenWidth() / 2 - 200, GetScreenHeight() / 2 - 200, WHITE);
     string binary = std::bitset<8>(128).to_string(); //to binary
+    cout << "\033[2J\033[1;1H";
     cout << binary << "\n";
     srand(time(NULL));
     unsigned long decimal = std::bitset<8>(binary).to_ulong(); //to int
