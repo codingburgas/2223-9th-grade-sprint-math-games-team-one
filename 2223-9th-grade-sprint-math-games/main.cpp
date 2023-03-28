@@ -608,73 +608,15 @@ int main()
                     {
                         while (isInFirstLevel)
                         {
-                            if (playerHealthCounter == 4)
-                            {
-                                while (isInFirstLevel)
-                                {
-                                    if (playerHealthCounter == 4)
 
-                                    {
-                                        switch (playerHealthCounter) // health switch when damaged
-                                        {
-                                        case 0: playerCurrentHealth = healthFull; break;
-                                        case 1: playerCurrentHealth = health75; break;
-                                        case 2: playerCurrentHealth = healthHalf; break;
-                                        case 3: playerCurrentHealth = health25; break;
-                                        case 4: playerCurrentHealth = health0; break;
-                                        }
-                                        switch (menuState)
-                                        {
-                                        case 0: currentAbility = abilityOne;  StartLevel(firstLvlBG, currentAbility, charDead, mushroomEnemyIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle); break;
-                                        case 1: currentAbility = abilityTwo;  StartLevel(firstLvlBG, currentAbility, charDead, mushroomEnemyIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle); break;
-                                        case 2: currentAbility = abilityThree;  StartLevel(firstLvlBG, currentAbility, charDead, mushroomEnemyIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle); break;
-                                        case 3: currentAbility = abilityFour;  StartLevel(firstLvlBG, currentAbility, charDead, mushroomEnemyIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle); break;
-                                        }
-                                        switch (GetKeyPressed()) //Spell Navigation
-                                        {
-                                        case KEY_LEFT: if (menuState == 0) menuState = 3;  else menuState--; break;
-                                        case KEY_RIGHT:  if (menuState == 3) menuState = 0;  else menuState++; break;
-                                        }
-                                        if (IsKeyPressed(KEY_ENTER))
-                                        {
-                                            switch (menuState)
-                                            {
-                                            case 3: isInFirstLevel = false; menuState = 0; mainMenu(mainBG, menuSelect1); isInMM = true; playerHealthCounter = 0; battleCounter = 0; isPlayersTurn = true;  break;
-                                            }
-                                        }
-                                    }
-                                    else
-                                    {
-                                        StartLevel(firstLvlBG, currentAbility, charIdle, mushroomEnemyIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle);
-                                    }
-                                }
-                                switch (menuState)
-                                {
-                                case 0: currentAbility = abilityOne;  StartLevel(firstLvlBG, currentAbility, charDead, mushroomEnemyIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle); break;
-                                case 1: currentAbility = abilityTwo;  StartLevel(firstLvlBG, currentAbility, charDead, mushroomEnemyIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle); break;
-                                case 2: currentAbility = abilityThree;  StartLevel(firstLvlBG, currentAbility, charDead, mushroomEnemyIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle); break;
-                                case 3: currentAbility = abilityFour;  StartLevel(firstLvlBG, currentAbility, charDead, mushroomEnemyIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle); break;
-                                }
-                                switch (GetKeyPressed()) //Spell Navigation
-                                {
-                                case KEY_LEFT: if (menuState == 0) menuState = 3;  else menuState--; break;
-                                case KEY_RIGHT:  if (menuState == 3) menuState = 0;  else menuState++; break;
-                                }
-                                if (IsKeyPressed(KEY_ENTER))
-                                {
-                                    switch (menuState)
-                                    {
-                                    case 3:  isInFirstLevel = false; menuState = 0; mainMenu(mainBG, menuSelect1); isInMM = true; enemyHealthCounter = 0; playerHealthCounter = 0; battleCounter = 0;
-                                    }
-                                }
-                            }
-                            else
+                            switch (playerHealthCounter) // health switch when damaged
                             {
-                                StartLevel(firstLvlBG, currentAbility, charIdle, mushroomEnemyIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle);
+                            case 0: playerCurrentHealth = healthFull; break;
+                            case 1: playerCurrentHealth = health75; break;
+                            case 2: playerCurrentHealth = healthHalf; break;
+                            case 3: playerCurrentHealth = health25; break;
+                            case 4: playerCurrentHealth = health0; break;
                             }
-                        }
-                        while (isInFirstLevel)
-                        {
                             switch (menuState)
                             {
                             case 0: currentAbility = abilityOne;  StartLevel(firstLvlBG, currentAbility, charDead, mushroomEnemyIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle); break;
@@ -700,6 +642,7 @@ int main()
                     {
                         StartLevel(firstLvlBG, currentAbility, charIdle, mushroomEnemyIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle);
                     }
+
 
                 }
                 else
@@ -818,7 +761,6 @@ int main()
                         magicPosition.y = GetScreenHeight() / 2;
                         StartLevel(firstLvlBG, currentAbility, charCastWater, gIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle);
                         WaitTime(0.2);
-                        StartLevel(firstLvlBG, currentAbility, charSwingWater, gIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle);
                         if (binaryCalculations(firstLvlBG, currentAbility, charCastWater, gIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle, tBox))
                         {
                             StartLevel(firstLvlBG, currentAbility, charSwingWater, gIdle, playerCurrentHealth, enemyCurrentHealth, currentBattle);
@@ -910,7 +852,7 @@ int main()
                             {
                                 switch (menuState)
                                 {
-                                    isInSecondLevel = false; menuState = 0; mainMenu(mainBG, menuSelect1); isInMM = true; enemyHealthCounter = 0; playerHealthCounter = 0; battleCounter = 0;
+                                case 3: isInSecondLevel = false; menuState = 0; mainMenu(mainBG, menuSelect1); isInMM = true; enemyHealthCounter = 0; playerHealthCounter = 0; battleCounter = 0; break;
                                 }
                             }
                         }
@@ -1126,7 +1068,7 @@ int main()
                             {
                                 switch (menuState)
                                 {
-                                    isInThirdLevel = false; menuState = 0; mainMenu(mainBG, menuSelect1); isInMM = true; enemyHealthCounter = 0; playerHealthCounter = 0; battleCounter = 0;
+                                case 3:isInThirdLevel = false; menuState = 0; mainMenu(mainBG, menuSelect1); isInMM = true; enemyHealthCounter = 0; playerHealthCounter = 0; battleCounter = 0; break;
                                 }
                             }
                         }
